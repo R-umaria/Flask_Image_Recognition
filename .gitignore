@@ -1,0 +1,40 @@
+# ----------------------------------------
+# 1. IDE/Editor Files
+# ----------------------------------------
+.idea/             # PyCharm/IntelliJ
+idea/
+.vscode/           # VS Code settings
+*~                 # Text editor backup files
+
+# ----------------------------------------
+# 2. Virtual Environments
+# ----------------------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ----------------------------------------
+# 3. Python Compiled and Packaging
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ----------------------------------------
+# 4. OS Generated Files
+# ----------------------------------------
+.DS_Store
+thumbs.db
+.Trashes
+
+# ----------------------------------------
+# 5. ML/Data Files (Adjust based on model size/tracking needs)
+# ----------------------------------------
+*.h5
+*.pkl
