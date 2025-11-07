@@ -1,6 +1,7 @@
 # Importing required libs
 from keras.models import load_model
 from keras.utils import img_to_array
+import tensorflow as tf
 import numpy as np
 from PIL import Image
 
